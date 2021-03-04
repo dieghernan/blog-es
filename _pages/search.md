@@ -1,7 +1,7 @@
 ---
 layout: search
-title: Search
-subtitle: 
-permalink: /search.html
+title: Búsqueda
+subtitle: Encuentra contenido en mi blog
+permalink: /buscar.html
 ---
 
