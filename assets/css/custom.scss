@@ -3,6 +3,38 @@
 @charset "utf-8";
 // Your custom css /scss here
 
+.navbar-chulapa .navbar-brand{
+	color: #212529;
+}
+
+.navbar-chulapa .navbar-brand:hover,
+.navbar-chulapa .navbar-brand:focus {
+	color: gray;
+}
+
+.navbar-chulapa .navbar-brand{
+	color: #212529;
+}
+
+.navbar-chulapa .navbar-brand:hover,
+.navbar-chulapa .navbar-brand:focus {
+	color: gray;
+}
+
+.navbar-chulapa .dropdown-item:active {
+	color: #1565c0;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a.btn-primary,
+a.chulapa-pill-bg-primary,
+.chulapa-pill-bg-body{
+	color: #1565c0;
+	background-color: white;
+	border: 1px solid #1565c0;
+}
+
 .footer-chulapa a i:hover, 
 .footer-chulapa a i:focus {
   transform: scale(1.5);
