@@ -2,30 +2,18 @@
 ---
 @charset "utf-8";
 // Your custom css /scss here
-.btn-primary,
-.chulapa-pill-bg-body,
-.chulapa-pill-bg-primary {
-  color: #1565c0;
-  border: 1px solid #1565c0;
-  background-color: transparent;
+
+.footer-chulapa a i:hover, 
+.footer-chulapa a i:focus {
+  transform: scale(1.5);
 }
 
-.chulapa-pill-bg-body,
-.chulapa-pill-bg-primary {
-  font-weight: normal;
-}
-
-.btn-primary .chulapa-pill-bg-primary{
-  border: 0;
-}
-
-h5 + div.chulapa-pill-bg-primary {
-  color: white;
-  border: 0;
-  background-color: #1565c0;
-}
-
-h5 {
+.footer-chulapa .small a{
   color: #1565c0;
 }
 
+
+.footer-chulapa .small a:hover,
+.footer-chulapa .small a:focus {
+  color: #4484CD;
+}
