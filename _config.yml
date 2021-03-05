@@ -6,9 +6,9 @@ remote_theme: dieghernan/chulapa
 
 # A. Site Settings /SEO options
 locale                  : es-ES
-title                   : Blog    
-subtitle                : Mis cosas
-description             : Bienvenido, aquí encontrarás mi contenido en español
+title                   : Mi Blog    
+subtitle                : Bienvenido
+description             : Blog personal, aquí encontrarás mi contenido en español
 baseurl                 : /blog-es
 timezone                : Europe/Madrid
 
