@@ -15,9 +15,14 @@
   font-weight: normal;
 }
 
-.btn-primary .chulapa-pill-bg-primary,
-h5 + div.badge {
+.btn-primary .chulapa-pill-bg-primary{
   border: 0;
+}
+
+h5 + div.chulapa-pill-bg-primary {
+  color: white;
+  border: 0;
+  background-color: #1565c0;
 }
 
 h5 {
