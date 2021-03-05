@@ -9,7 +9,7 @@ locale                  : es-ES
 title                   : Mi Blog    
 subtitle                : Bienvenido
 description             : Blog personal, aquí encontrarás mi contenido en español
-baseurl                 : /blog-es
+baseurl                 : /es
 timezone                : Europe/Madrid
 
 # SEO
