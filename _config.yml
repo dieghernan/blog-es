@@ -16,7 +16,7 @@ timezone                : Europe/Madrid
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
 twitter_site            : dhernangomez
 author:
-  name                  : D. Hernangómez
+  name                  : dieghernan
   avatar                : https://github.com/dieghernan.png
   location              :  "Madrid, Spain"
   links:                
@@ -28,7 +28,6 @@ gtag_id                 :
 
 
 # Search providers
-gtag_id                 :  
 search:
   label: Búsqueda
   landing_page          : /buscar
@@ -68,12 +67,11 @@ navbar:
   style     :  #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
   expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
   brand:
-    title   :  Home # Title in navbar
-    url     :  # default["url/baseurl"]
-    img     :  # An small image, try 30x30px
+    title   :  Inicio
+    img     : https://github.com/dieghernan.png
   nav:
-  - title   : Blog # Label
-    url     : /blog/ # url	
+  - title   : Blog
+    url     : /blog/
   - title   : Extras
     child   :
       - title : Tags
@@ -117,18 +115,23 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     : 
-  autothemer    :  true 
   vars          :    
-    navbar-chulapa-bg-color: white 
-    navbar-chulapa-active-color: "#1565c0"
-    body-bg: white
-    white: white
-    primary: "#1565c0"
-    footer-chulapa-icon-color: "#1565c0"
-    footer-chulapa-icon-hover-color: "#4484CD"
     font-family-base: Roboto, sans-serif
     headings-font-family: Montserrat, sans-serif
     font-family-monospace: Roboto Mono, monospace
+    white: white
+    primary: "#1565c0"
+    body-bg: white
+    navbar-chulapa-bg-color: white 
+    navbar-chulapa-active-color: "#2962ff"
+    footer-chulapa-icon-color: "#1565c0"
+    footer-chulapa-icon-hover-color: transparent
+    h1-font-size: 2.25rem
+    h2-font-size: 1.5rem
+    h3-font-size: 1.25rem
+    h4-font-size: 1rem
+    h5-font-size: 1rem
+    h6-font-size: 1rem
     
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
