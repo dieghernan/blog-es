@@ -9,7 +9,7 @@ locale                  : es-ES
 title                   : Blog    
 subtitle                : Mis cosas
 description             : Bienvenido, aquí encontrarás mi contenido en español
-baseurl                 : /miblog
+baseurl                 : /blog-es
 timezone                : Europe/Madrid
 
 # SEO
@@ -74,8 +74,6 @@ navbar:
   nav:
   - title   : Blog # Label
     url     : /blog/ # url	
-  - title   : Cheatsheets
-    url     : /cheatsheets
   - title   : Extras
     child   :
       - title : Tags
@@ -86,38 +84,51 @@ navbar:
         url   : /archive
       - title : Current skin
         url   : /current-skin
-  - title   : Docs
-    url     : https://dieghernan.github.io/chulapa/docs/01-install
-  - title   : Use this template
-    url     : https://github.com/dieghernan/chulapa-101/generate
-#  - title   : # Label submenu
-#    child:		
-#    - title: # Child label		
-#      url  : # child url	
-#    - title: # Child label		
-#      url  : # child url	
+  - title   : One World - mi otro sitio 🇬🇧
+    url     : https://dieghernan.github.io/
+
 #Social links to be placed on your site footer
 footer:
   links:
-    - label : Repo on Github # Label
-      icon  : fab fa-github # Fontawesome 5 icon
-      url   : https://github.com/dieghernan/chulapa-101 # A link or email: https://twitter.com/jack, mail@example.com
     - label: "RSS"
       icon: "fa fa-rss"
       url:  "./atom.xml"
+    - label: Stack Overflow
+      icon: fab fa-stack-overflow
+      url: https://stackoverflow.com/users/7877917/dieghernan
+    - label: WikiCommons
+      icon: fab fa-wikipedia-w
+      url: https://commons.wikimedia.org/wiki/Special:ListFiles?limit=50&user=dieghernan84
+    - label: Github
+      icon: fab fa-github
+      url: https://github.com/dieghernan/
+    - label: Carto
+      icon: far fa-dot-circle
+      url: https://dieghernan.carto.com/
+    - label: "RPubs"
+      icon: "fab fa-r-project"
+      url: "https://rpubs.com/dieghernan"
   
 # C. Theme Settings
 # Google Fonts https://fonts.google.com/, add as many as you need
 googlefonts:
- # - url : # 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'
+ - url : https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap
 
 # Theme and colors
 chulapa-skin: 
-  highlight     :  # default["default"]
-  skin         :  # Optional predefined skins
-  autothemer    :  true # Bool: Use autotheming
+  highlight     : 
+  autothemer    :  true 
   vars          :    
-    primary     : lightskyblue #default ["#007bff"] - Bootstrap blue
+    navbar-chulapa-bg-color: white 
+    body-bg: white
+    white: white
+    primary: "#1565c0"
+    footer-chulapa-icon-color: "#1565c0"
+    footer-chulapa-icon-hover-color: "#4484CD"
+    font-family-base: Roboto, sans-serif
+    headings-font-family: Montserrat, sans-serif
+    font-family-monospace: Roboto Mono, monospace
+    
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 

@@ -2,3 +2,20 @@
 ---
 @charset "utf-8";
 // Your custom css /scss here
+
+.btn-primary,
+.chulapa-pill-bg-body,
+.chulapa-pill-bg-primary{
+   color:#1565c0;
+   border:.5px solid #1565c0;
+   background-color: transparent;
+}
+
+.chulapa-pill-bg-body,
+.chulapa-pill-bg-primary{
+   font-weight: normal;
+}
+
+.btn-primary .chulapa-pill-bg-primary{
+  border:0;
+}
