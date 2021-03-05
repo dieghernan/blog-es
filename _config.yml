@@ -120,6 +120,7 @@ chulapa-skin:
   autothemer    :  true 
   vars          :    
     navbar-chulapa-bg-color: white 
+    navbar-chulapa-active-color: "#1565c0"
     body-bg: white
     white: white
     primary: "#1565c0"
