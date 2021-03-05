@@ -174,8 +174,8 @@ defaults:
       show_author       : true
       show_breadcrumb   : true
       breadcrumb_list   :
-        - label: Blog
-          url: /blog/
+        - label: Inicio
+          url: /
   
 # XX. Other settings - no need to modify
 # HTML Compression
