@@ -3,49 +3,45 @@
 @charset "utf-8";
 // Your custom css /scss here
 
-.navbar-chulapa .navbar-brand{
-	color: #212529;
+.navbar-chulapa .navbar-brand {
+  color: #212529;
 }
 
 .navbar-chulapa .navbar-brand:hover,
 .navbar-chulapa .navbar-brand:focus {
-	color: gray;
-}
-
-.navbar-chulapa .navbar-brand{
-	color: #212529;
-}
-
-.navbar-chulapa .navbar-brand:hover,
-.navbar-chulapa .navbar-brand:focus {
-	color: gray;
+  color: gray;
 }
 
 .navbar-chulapa .dropdown-item:active {
-	color: #1565c0;
-	text-decoration: none;
-	background-color: transparent;
+  color: #1565c0;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 a.btn-primary,
 a.chulapa-pill-bg-primary,
-.chulapa-pill-bg-body{
-	color: #1565c0;
-	background-color: white;
-	border: 1px solid #1565c0;
+.chulapa-pill-bg-body {
+  color: #1565c0;
+  background-color: white;
+  border: 1px solid #1565c0;
 }
 
-.footer-chulapa a i:hover, 
+h5,
+h6 {
+  color: #1565c0;
+}
+
+.footer-chulapa a i:hover,
 .footer-chulapa a i:focus {
   transform: scale(1.5);
 }
 
-.footer-chulapa .small a{
+.footer-chulapa .small a {
   color: #1565c0;
 }
 
-
 .footer-chulapa .small a:hover,
 .footer-chulapa .small a:focus {
-  color: #4484CD;
+  color: #4484cd;
 }
+
